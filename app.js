@@ -9,7 +9,7 @@ const PORT = process.env.PORT;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('You probabaly did not want to see this!');
+    res.send('You probably did not want to see this!');
 });
 
 app.use("/render", r)
